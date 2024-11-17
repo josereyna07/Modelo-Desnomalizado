@@ -20,4 +20,7 @@ public class Paciente {
     private String direccion;
     private int edad;
     private String telefono;
+    private String eps;          // EPS del paciente
+    private String prioridad;    // Prioridad de atención: "Alta", "Normal", etc.
+    private String condicion;    // Condición médica: "hipertensión", "diabetes", etc.
 }
